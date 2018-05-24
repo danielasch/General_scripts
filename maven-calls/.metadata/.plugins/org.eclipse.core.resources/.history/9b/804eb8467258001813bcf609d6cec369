@@ -1,0 +1,97 @@
+package initial;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Iterator;
+
+public class App {
+
+	public static void main(String[] args) {
+		String[] aux = new String[4];
+		
+        aux[0] = args[0]; //folder com ontologias
+        aux[1] = args[1]; //folder para rdf
+		
+		String operator = args[2].toLowerCase(); //top onto seleção
+		
+		aux[3] = args[3]; //seleção tecnica 
+		
+		switch(operator) {
+			case "both":
+				System.out.println("Ont - both");
+				aux[2] = "dolce";
+				sRUN(aux);
+				
+				aux[2] = "sumo";	
+				sRUN(aux);
+				break;
+				
+			case "dolce":
+				System.out.println("Ont - dolce");
+				sRUN(aux);
+				break;
+				
+			case "sumo":
+				System.out.println("Ont - SUMO");
+				sRUN(aux);
+				break;
+		}
+
+	}
+    
+	public static void sRUN(String[] arguments) {
+		String operator = arguments[3];
+		System.out.println(operator);
+		System.out.println(arguments[2]);
+		switch(operator) {
+			case "both":
+				System.out.println("TEC- BOTH");
+				//eRUN();
+				
+				//eRUN();
+				break;
+			case "1":
+				System.out.println("TEC- 1");
+				//eRUN();
+				break;
+			case "2":
+				System.out.println("TEC- 2");
+				//eRUN();
+				break;
+		}
+	//+----------------------------------------------+//	
+	}
+	
+	/*public static void eRUN(String[] arguments) {
+		Process proc = null;
+		
+		File file = new File(folderPath);
+		File[] vec = file.listFiles();
+		
+		String[] cmdarray;
+		cmdarray[0] = "java -jar ontoAli-pucrs-0.0.2.jar";
+		
+		for(File f: vec) {
+			if(f.isFile() && f.getName().endsWith(".owl") ) {
+				cmdarray[1] = folderPath + "/" + f.getName();
+				
+				try {
+						proc = Runtime.getRuntime().exec(cmdarray);
+						if(proc != null) {
+							InputStream in = proc.getInputStream();
+							InputStream err = proc.getErrorStream();
+							System.out.println(in);
+							System.out.println(err);
+						}
+
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+				System.out.println(f.getName());
+			}
+		}
+	}*/
+	
+        
+    }

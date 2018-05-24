@@ -1,0 +1,40 @@
+package initial;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Iterator;
+
+import org.apache.commons.io.FileUtils;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		String[] a = new String[1];
+		a[0] = ".owl";
+		Iterator it = FileUtils.iterateFiles(new File("C:/User/PLN/Desktop/Workspace/resources/Ontologias"), null, null);
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		/*Process proc = null;
+		String folderPath = args[0];
+		String outPath = args[1];
+		String tec = args[2];
+		boolean aux = true;
+		try {
+			while(aux) {
+				String a = folderPath + "/edas.owl";
+				proc = Runtime.getRuntime().exec("java -jar .jar");
+				if(proc != null) {
+					InputStream in = proc.getInputStream();
+					InputStream err = proc.getErrorStream();
+				}
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}*/
+
+	}
+
+}
