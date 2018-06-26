@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+	<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+		xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+		xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+		xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+ 
+		<Alignment>
+			<xml>yes</xml>
+			<level>0</level>
+			<type>11</type>
+ 
+			<onto1>
+				<Ontology rdf:about='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl'>
+					<location>file:/SUMO.owl</location>
+				</Ontology>
+			</onto1>
+ 
+			<onto2>
+				<Ontology rdf:about='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/Conference.owl'>
+					<location>file:/Conference</location>
+				</Ontology>
+			</onto2>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Organization'/>
+					<entity2 rdf:resource='http://conference#Committee'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Commission'/>
+					<entity2 rdf:resource='http://conference#Committee'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#FormalMeeting'/>
+					<entity2 rdf:resource='http://conference#Conference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#FactualText'/>
+					<entity2 rdf:resource='http://conference#Conference_document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#ComputerFile'/>
+					<entity2 rdf:resource='http://conference#Conference_document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#ChargingAFee'/>
+					<entity2 rdf:resource='http://conference#Conference_fees'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Entity'/>
+					<entity2 rdf:resource='http://conference#Conference_part'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Text'/>
+					<entity2 rdf:resource='http://conference#Conference_proceedings'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Organization'/>
+					<entity2 rdf:resource='http://conference#Organization'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#SocialRole'/>
+					<entity2 rdf:resource='http://conference#Organizer'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Human'/>
+					<entity2 rdf:resource='http://conference#Person'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Position'/>
+					<entity2 rdf:resource='http://conference#Publisher'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Corporation'/>
+					<entity2 rdf:resource='http://conference#Publisher'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Proposition'/>
+					<entity2 rdf:resource='http://conference#Review_expertise'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#IntentionalRelation'/>
+					<entity2 rdf:resource='http://conference#Review_preference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#PsychologicalAttribute'/>
+					<entity2 rdf:resource='http://conference#Review_preference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Proposition'/>
+					<entity2 rdf:resource='http://conference#Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Entity'/>
+					<entity2 rdf:resource='http://conference#Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 

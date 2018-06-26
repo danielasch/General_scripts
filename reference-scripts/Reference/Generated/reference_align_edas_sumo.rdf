@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+	<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+		xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+		xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+		xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+ 
+		<Alignment>
+			<xml>yes</xml>
+			<level>0</level>
+			<type>11</type>
+ 
+			<onto1>
+				<Ontology rdf:about='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl'>
+					<location>file:/SUMO.owl</location>
+				</Ontology>
+			</onto1>
+ 
+			<onto2>
+				<Ontology rdf:about='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/edas.owl'>
+					<location>file:/edas</location>
+				</Ontology>
+			</onto2>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Requesting'/>
+					<entity2 rdf:resource='http://edas#Call'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#FormalMeeting'/>
+					<entity2 rdf:resource='http://edas#Conference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Communication'/>
+					<entity2 rdf:resource='http://edas#Conference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Process'/>
+					<entity2 rdf:resource='http://edas#ConferenceEvent'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#TimeInterval'/>
+					<entity2 rdf:resource='http://edas#ConferenceSession'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Meeting'/>
+					<entity2 rdf:resource='http://edas#ConferenceSession'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#FormalMeeting'/>
+					<entity2 rdf:resource='http://edas#ConferenceSession'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#FactualText'/>
+					<entity2 rdf:resource='http://edas#ContactInformation'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Nation'/>
+					<entity2 rdf:resource='http://edas#Country'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#FactualText'/>
+					<entity2 rdf:resource='http://edas#Document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#ComputerFile'/>
+					<entity2 rdf:resource='http://edas#Document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Organization'/>
+					<entity2 rdf:resource='http://edas#Organization'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Human'/>
+					<entity2 rdf:resource='http://edas#Person'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#HistoricalAccount'/>
+					<entity2 rdf:resource='http://edas#PersonalHistory'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Entity'/>
+					<entity2 rdf:resource='http://edas#Place'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Region'/>
+					<entity2 rdf:resource='http://edas#Place'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Text'/>
+					<entity2 rdf:resource='http://edas#ReviewForm'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Questioning'/>
+					<entity2 rdf:resource='http://edas#ReviewQuestion'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Comparing'/>
+					<entity2 rdf:resource='http://edas#ReviewRating'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Helping'/>
+					<entity2 rdf:resource='http://edas#Sponsorship'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Proposition'/>
+					<entity2 rdf:resource='http://edas#Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Entity'/>
+					<entity2 rdf:resource='http://edas#Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+		</Alignment>
+	</rdf:RDF>

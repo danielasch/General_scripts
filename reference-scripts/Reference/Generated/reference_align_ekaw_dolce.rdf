@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+	<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+		xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+		xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+		xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+ 
+		<Alignment>
+			<xml>yes</xml>
+			<level>0</level>
+			<type>11</type>
+ 
+			<onto1>
+				<Ontology rdf:about='http://www.loa-cnr.it/ontologies/DLP365.owl'>
+					<location>file:/wnNounsyn_v7.owl</location>
+				</Ontology>
+			</onto1>
+ 
+			<onto2>
+				<Ontology rdf:about='http://ekaw'>
+					<location>file:/ekaw</location>
+				</Ontology>
+			</onto2>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/InformationObjects#information-realization'/>
+					<entity2 rdf:resource='http://ekaw#Document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DnS#information-object'/>
+					<entity2 rdf:resource='http://ekaw#Document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DOLCE-Lite#event'/>
+					<entity2 rdf:resource='http://ekaw#Event'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DOLCE-Lite#space-region'/>
+					<entity2 rdf:resource='http://ekaw#Location'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#agentive-figure'/>
+					<entity2 rdf:resource='http://ekaw#Organisation'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#socially-constructed-person'/>
+					<entity2 rdf:resource='http://ekaw#Person'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DnS#situation'/>
+					<entity2 rdf:resource='http://ekaw#Research_Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/InformationObjects#subject'/>
+					<entity2 rdf:resource='http://ekaw#Research_Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+		</Alignment>
+	</rdf:RDF>
