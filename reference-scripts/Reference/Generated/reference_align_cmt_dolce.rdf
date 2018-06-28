@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+	<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+		xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+		xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+		xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+ 
+		<Alignment>
+			<xml>yes</xml>
+			<level>0</level>
+			<type>11</type>
+ 
+			<onto1>
+				<Ontology rdf:about='http://www.loa-cnr.it/ontologies/DLP365.owl'>
+					<location>file:/wnNounsyn_v7.owl</location>
+				</Ontology>
+			</onto1>
+ 
+			<onto2>
+				<Ontology rdf:about='http://cmt'>
+					<location>file:/cmt</location>
+				</Ontology>
+			</onto2>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DnS#task'/>
+					<entity2 rdf:resource='http://cmt#Bid'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/Actions#activity'/>
+					<entity2 rdf:resource='http://cmt#Bid'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/InformationObjects#information-realization'/>
+					<entity2 rdf:resource='http://cmt#Conference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/Collectives#simple-planned-collective'/>
+					<entity2 rdf:resource='http://cmt#Conference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/Collections#non-physical-collection'/>
+					<entity2 rdf:resource='http://cmt#Decision'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/Actions#activity'/>
+					<entity2 rdf:resource='http://cmt#Decision'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/InformationObjects#information-realization'/>
+					<entity2 rdf:resource='http://cmt#Document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+  
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/InformationObjects#information-object'/>
+					<entity2 rdf:resource='http://cmt#Document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#socially-constructed-person'/>
+					<entity2 rdf:resource='http://cmt#Person'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/ModalDescriptions#cognitive-modal-description'/>
+					<entity2 rdf:resource='http://cmt#Preference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/Actions#cognitive-event'/>
+					<entity2 rdf:resource='http://cmt#Preference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#agentive-figure'/>
+					<entity2 rdf:resource='http://cmt#ProgramCommittee'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/InformationObjects#subject'/>
+					<entity2 rdf:resource='http://cmt#SubjectArea'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+		</Alignment>
+	</rdf:RDF>

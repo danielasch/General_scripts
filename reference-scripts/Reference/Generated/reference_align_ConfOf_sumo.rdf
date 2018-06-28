@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+	<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+		xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+		xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+		xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+ 
+		<Alignment>
+			<xml>yes</xml>
+			<level>0</level>
+			<type>11</type>
+ 
+			<onto1>
+				<Ontology rdf:about='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl'>
+					<location>file:/SUMO.owl</location>
+				</Ontology>
+			</onto1>
+ 
+			<onto2>
+				<Ontology rdf:about='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/ConfOf.owl'>
+					<location>file:/ConfOf</location>
+				</Ontology>
+			</onto2>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#City'/>
+					<entity2 rdf:resource='http://confOf#City'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Text'/>
+					<entity2 rdf:resource='http://confOf#Contribution'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Nation'/>
+					<entity2 rdf:resource='http://confOf#Country'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Process'/>
+					<entity2 rdf:resource='http://confOf#Event'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Organization'/>
+					<entity2 rdf:resource='http://confOf#Organization'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Human'/>
+					<entity2 rdf:resource='http://confOf#Person'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Proposition'/>
+					<entity2 rdf:resource='http://confOf#Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='file:/C:/Users/Kops/Downloads/Reference/ReferenceAlign/resources/SUMO.owl#Entity'/>
+					<entity2 rdf:resource='http://confOf#Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+		</Alignment>
+	</rdf:RDF>

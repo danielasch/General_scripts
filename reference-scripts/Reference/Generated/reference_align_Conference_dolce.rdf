@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+	<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+		xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+		xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+		xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+ 
+		<Alignment>
+			<xml>yes</xml>
+			<level>0</level>
+			<type>11</type>
+ 
+			<onto1>
+				<Ontology rdf:about='http://www.loa-cnr.it/ontologies/DLP365.owl'>
+					<location>file:/wnNounsyn_v7.owl</location>
+				</Ontology>
+			</onto1>
+ 
+			<onto2>
+				<Ontology rdf:about='http://conference'>
+					<location>file:/conference</location>
+				</Ontology>
+			</onto2>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#agentive-figure'/>
+					<entity2 rdf:resource='http://conference#Committee'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/Collectives#simple-planned-collective'/>
+					<entity2 rdf:resource='http://conference#Conference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/InformationObjects#information-realization'/>
+					<entity2 rdf:resource='http://conference#Conference_document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DnS#information-object'/>
+					<entity2 rdf:resource='http://conference#Conference_document'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/CommonSenseMapping#qualitative-role'/>
+					<entity2 rdf:resource='http://conference#Conference_fees'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DOLCE-Lite#relevant-part'/>
+					<entity2 rdf:resource='http://conference#Conference_part'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/CommonSenseMapping#qualitative-role'/>
+					<entity2 rdf:resource='http://conference#Conference_part'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DnS#information-object'/>
+					<entity2 rdf:resource='http://conference#Conference_proceedings'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DOLCE-Lite#region'/>
+					<entity2 rdf:resource='http://conference#Important_dates'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DOLCE-Lite#temporal-region'/>
+					<entity2 rdf:resource='http://conference#Important_dates'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#agentive-figure'/>
+					<entity2 rdf:resource='http://conference#Organization'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#socially-constructed-person'/>
+					<entity2 rdf:resource='http://conference#Organizer'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#socially-constructed-person'/>
+					<entity2 rdf:resource='http://conference#Person'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#socially-constructed-person'/>
+					<entity2 rdf:resource='http://conference#Publisher'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/AgentiveFigures#agentive-figure'/>
+					<entity2 rdf:resource='http://conference#Publisher'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DnS#parameter'/>
+					<entity2 rdf:resource='http://conference#Review_expertise'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/ModalDescriptions#cognitive-modal-description'/>
+					<entity2 rdf:resource='http://conference#Review_preference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/Actions#cognitive-event'/>
+					<entity2 rdf:resource='http://conference#Review_preference'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/DnS#situation'/>
+					<entity2 rdf:resource='http://conference#Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 
+			<map>
+				<Cell>
+					<entity1 rdf:resource='http://www.loa-cnr.it/ontologies/InformationObjects#subject'/>
+					<entity2 rdf:resource='http://conference#Topic'/>
+					<relation>&lt;</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+ 

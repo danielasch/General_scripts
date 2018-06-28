@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+
+	<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+			 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+			 xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+			 xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+			 
+		<Alignment>
+			<xml>yes</xml>
+			<level>0</level>
+			<type>11</type>
+			
+			<onto1>
+				<Ontology rdf:about="top.iri">
+					<location>file:/top.name</location>
+				</Ontology>
+			</onto1>
+			
+			<onto2>
+				<Ontology rdf:about="domain.iri">
+					<location>file:/domain.name</location>
+				</Ontology>
+			</onto2>
+			
+			<map>
+				<Cell>
+					<entity1 rdf:resource='topConcept.iri'/>
+					<entity2 rdf:resource='domainConcept.iri'/>
+					<relation>&lt</relation>
+					<measure rdf:datatype='xds:float'>1.0</measure>
+				</Cell>
+			</map>
+			
+		</Alignment>
+	</rdf:RDF>
